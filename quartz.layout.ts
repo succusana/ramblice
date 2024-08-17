@@ -7,13 +7,12 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [
     Component.RecentNotes({
-      title: "Recent Blog Posts",
-      limit: 3,}),
+      title: "Recent Posts",
+      limit: 5,}),
   ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/succusana",
     },
   }),
 }
