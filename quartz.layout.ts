@@ -8,6 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.RecentNotes({
       title: "Recent Posts",
+      filter: (f) => f.slug!.startsWith("Posts/"),
       limit: 5,}),
   ],
   footer: Component.Footer({
