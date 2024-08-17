@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "en-GB",
     baseUrl: "ramble.alicealeph.co.uk",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
