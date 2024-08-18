@@ -4,7 +4,9 @@ date: 2024-08-17
 tags:
   - meta
   - tech
+description: Alice throws themselves down yet another rabbit hole.
 ---
+
 (Alternatively titled "Alice Throws Themselves Down Yet Another Rabbit Hole".)
 
 The idea of me of all people making a personal website might seem a little weird: It's not like I'm that active on social media in the first place, and even in the times I do, I don't talk *that much*. Honestly though, there's a few reasons for why I'm doing this:
