@@ -7,9 +7,14 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
   const baseDir = pathToRoot(fileData.slug!)
   return (
-    <h2 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir}>{title}</a>
-    </h2>
+    <div class="HeaderDiv">
+      <a href="/">
+        <img src="https://ramble.alicealeph.co.uk/static/icon.png" alt="Ramblice" width="32" height="32"> </img>
+      </a>
+      <h2 class={classNames(displayClass, "page-title")}>
+        <a href={baseDir}>{title}</a>
+      </h2>
+    </div>
   )
 }
 

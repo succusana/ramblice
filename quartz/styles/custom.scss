@@ -96,3 +96,16 @@
       max-width: 50%;
     }
   }
+
+  .HeaderDiv {
+    display: inline-block;
+  }
+
+  .HeaderDiv a {
+    float: left;
+  }
+
+  .HeaderDiv .page-title {
+    margin: 20px 0px 0px 10px;
+    float: right
+  }
